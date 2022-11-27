@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Links = ({route}) => {
+const Links = ({ route }) => {
     return (
-            <ul className='mr-10'>
-                <a href={route.path}>{route.name}</a>
-            </ul>
-            
+        <li className='mr-12'>
+            <a href={route.path}>{route.name}</a>
+        </li>
+
     );
 };
 
